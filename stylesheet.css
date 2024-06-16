@@ -1,0 +1,128 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    background-image: url(pattern.jpg);
+}
+
+h1 {
+    font-weight: bolder;
+    color: pink
+}
+
+h2 {
+    font-weight: bold;
+    font-style: oblique;
+    color: pink;
+}
+
+h3 {
+    color: pink;
+    font-size: xx-large;
+}
+
+h4 {
+    color: pink;
+    font-size: x-large;
+}
+
+a {
+    text-decoration: none;
+}
+a:link {
+    color: pink;
+}
+
+a:visited, a:hover, a:active  {
+    color: #5a9990;
+    font-weight: bold;
+}
+.headernav li {
+    display: inline-block;
+    width: 200px;
+	background-color: #5a9990;
+	text-align: center;
+	border: 3px solid pink;
+    margin-bottom: 10px;
+}
+
+.portada>p {
+    color: #5a9990;
+    font-weight: bolder;
+    font-size: x-large;
+    text-align: center;
+}
+
+body p {
+    color: #5a9990;
+    font-size: large;
+    text-align: justify;
+    font-weight: bolder;
+}
+
+.prefacio li {
+    color: #5a9990;
+    font-weight: bolder;
+}
+
+.indice li {
+    color: #5a9990;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    padding: 12px 0px;
+}
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.fotorama-center {
+    display: flex; 
+    justify-content: center;
+}
+
+@media (min-width: 100px) {
+    p {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    iframe {
+        width: 100px;
+    }
+}
+
+@media (min-width: 573px) {
+    iframe {
+        width: 500px;
+    }
+}
+
+@media (min-width: 768px) {
+    iframe {
+        width: 700px;
+    }
+    
+}
+
+@media (min-width: 992px) {
+    iframe {
+        width: 900px;
+    }
+}
+
+@media (min-width: 1152px) {
+    iframe {
+        width: 1000px;
+    }
+}
